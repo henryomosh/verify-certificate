@@ -9,9 +9,8 @@ export default function VerifyQr({
   cert_id: any;
   data: any;
 }) {
-  const student = data?.filter((item: any) => item.id == cert_id);
-  const student_data = data[0];
-  console.log(data);
+  const student = data?.filter((item: any) => item.id === cert_id);
+  const student_data = student[0];
 
   return (
     <div>

@@ -29,8 +29,6 @@ export default function DocsPage() {
   const router = useRouter();
   const { student_id } = router.query;
 
-  console.log(student_id);
-
   return (
     <DefaultLayout>
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
