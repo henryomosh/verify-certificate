@@ -1,0 +1,16 @@
+{
+  "crons": [
+    {
+      "path": "/api/alive/data",
+      "schedule": "0 0 */3 * *"
+    },
+    {
+      "path": "/api/alive/datab",
+      "schedule": "0 0 */3 * *"
+    },
+    {
+      "path": "/api/alive/datac",
+      "schedule": "0 0 */3 * *"
+    }
+  ]
+}
